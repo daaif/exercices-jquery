@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 5</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 5 <small>Manipulation</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p>Opérations sur un tableau HTML :
+                <ol>
+                    <li>Parcourir les lignes du tableau et claculer les sous-totaux</li>
+                    <li>Calculer le total général</li>
+                    <li>Créer une fonction qui permet de formater les nombres :
+                    <strong>string &leftarrow; format(number)</strong> <br>
+                    "23 345.60" &leftarrow; format(23345.6)</li>
+                </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+    <div class="markup"><div id="ce">
+        <style>.r {text-align: right}</style>
+        <table border="1" cellpadding="6" width="100%">
+            <tr><th>PRODUIT</th><th>PRIX</th><th>QUANTITE</th><th>SOUS-TOTAL</th></tr>
+            <tr><td>PC</td><td class="r">5400.00</td><td class="r">3</td><td class="r">?</td></tr>
+            <tr><td>Imprimante</td><td class="r">1500.00</td><td class="r">10</td><td class="r">?</td></tr>
+            <tr><td>Scanner</td><td class="r">2400.00</td><td class="r">2</td><td class="r">?</td></tr>
+            <tr><td>Onduleur</td><td class="r">1200.00</td><td class="r">3</td><td class="r">?</td></tr>
+            <tr><td colspan="3" class="r">TOTAL : </td><td class="r">?</td></tr>
+        </table>
+    </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-05.js', Num = 5</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-05.js"></script>
+</body>
+</html>

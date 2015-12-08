@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercices JS jQuery</title>
+    <link rel="stylesheet" href="bower_components/prism/themes/prism-okaidia.css">
+    <link rel="stylesheet" href="interface/css/style.css">
+
+    <style>
+        body {
+            padding: 2px 8px;
+            font-family: Verdana;
+            font-size: 14.5px;
+            line-height: 1.7em;
+        }
+        h1, h2 {
+            margin: 4px 6px 3px;
+            padding: 9px 6px;
+            border: 1px solid #fff;
+            background: #f9f8f7;
+            box-shadow: 1px 0px 20px #ccc;
+        }
+        h2 a {
+            text-decoration: none;
+        }
+        .structure > div {
+            width: 82%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .structure img {
+            vertical-align: top;
+            width: 14%;
+            margin: 10px;
+            box-shadow: 1px 1px 16px #ccc;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+<div >
+    <h1> Exercices  <small>JavaScript - jQuery</small></h1>
+    <div class="description" >
+        <h2>Structure du projet</h2>
+        <div class="structure">
+            <img src="images/project-structure.png"
+                 alt="Structure du projet"
+                 onclick="zoomImage('./images/project-structure.png')" >
+            <div>
+            <p>Le projet est constitué des dossiers suivants :</p>
+            <ol>
+                <li><strong>bower_components</strong> qui contien : <ul>
+                    <li><strong>jQuery</strong></li>
+                    <li><strong>PrismJS</strong> pour le highlignting du code.</li>
+                </ul></li>
+                <li><strong>exercices</strong> contient les fichiers HTML de tous les exercices</li>
+                <li><strong>files</strong> contient des fichiers <strong>JSON</strong>
+                et <strong>XML</strong> qui seront utilisés dans certains exercices.</li>
+                <li><strong>images</strong> Contient surtout des copies d'écran du résultat
+                attendu de l'exercice.</li>
+                <li><strong>interface</strong> contient les sous dossiers <strong>css</strong>
+                et <strong>js</strong>. Les fichers de ces dossier concernent uniquement
+                l'interface de l'application.</li>
+                <li><strong>reponses</strong> est le dossier dans lequel vous allez trvailler.
+                Il contiendra tous les scripts <strong>JS</strong> relatifs aux exercices.</li>
+            </ol>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>Travail à faire :</h2>
+        <ol>
+            <li>Ouvrez le projet dans un éditeur de code.</li>
+            <li>Lancez un serveur web de développement à la rcine de l'aplication.
+                (Dossier contenant <strong>index.html</strong>)</li>
+            <li>Pour chaque exercice, comlétez le fichier <strong>reponse/script-n.js</strong> où
+                <strong>n</strong> correspond au numéro de l'exercice.</li>
+            <li>Tous les scripts <strong>JS</strong> doivent &ecirc;tre commentés correctement.</li>
+            <li>Il est conseillé de faire vos tests sur la console
+                <strong>devtools</strong> de Google Chrome.</li>
+        </ol>
+        <h2>Ce qu'il faut rendre :</h2>
+        <p>Créer un dossier nommé par votre <strong>nom_prénom</strong>. Collez dedans
+            les dossiers <strong>reponses</strong> et <strong>files</strong>. Zippez le dossier
+            et envoyez-le à l'adresse email correspondant à votre classe.
+        </p>
+    </div>
+    <div class="links">
+        <h2><a href="exercices/exercice_01.html">Accéder aux exercices</a></h2>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="interface/js/script1.js"></script>
+</body>
+</html>

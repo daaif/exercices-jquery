@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 10</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 10 <small>EVENTS - CSS</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p>Dans les sites de commerce électronique, on propose aux utilisateurs des
+                photos des produits. Quand l'utilisateur passe la sourie sur la photo,
+            la partie survolé est zoomée. Cette technique permet de montrer les détails
+            du produit. <br>
+            Nous utiliserons cette technique dans cet exercice pour montrer les détails
+            de la toile &laquo;Monalisa&raquo; du peintre Davinchi.
+                <ol>
+                    <li>En agissant sur les style CSS de la <strong>div.box</strong>
+                     fiare une recopie de zone survolée à l'echelle réélle de l'image</li>
+
+                </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+
+    <div class="markup"><div id="ce">
+        <style>
+            #ce {
+                margin: 2px auto;  padding: 24px;
+                border: 1px solid gray;
+            }
+            .box, #imgsrc{
+                width: 400px; height: 250px; margin: 0 40px;
+                border: 1px solid #f08;
+                display: inline-block;
+            }
+            .box{
+                width: 250px;
+            }
+            #imgsrc img {
+                width: 400px; height: 250px;
+                cursor: url("../images/cursor.png"), pointer;
+            }
+
+        </style>
+        <div id="imgsrc"><img src="../images/monalisa-orig.png"  /></div>
+        <div class="box"></div>
+    </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-10.js', Num = 10, gif = true;</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-10.js"></script>
+</body>
+</html>

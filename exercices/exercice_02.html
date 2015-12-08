@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 2</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 2 <small>Animation & Séquencement</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p>On consildère la série des div ci-dessous. Nous voulons qu'ai click sur
+                la première div on lance une animation :
+                <ol>
+                    <li>Les div vont dispara&icirc;tre les unes à la suite des autres, en commançant par
+                    la première à gauche.</li>
+                    <li>M&ecirc;me chose que la première question, à la différence qu'elles réapara&icirc;ttront les unes
+                    à la suite des autres après un délai.</li>
+                    </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+    <div class="markup">
+        <style>
+            .box{
+                width:100px; height:100px; background: #CCF;
+                display: inline-block;
+            }
+        </style>
+        <div id="ce" style="height:220px; padding:20px">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-02.js', Num = 2, gif = true;</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-02.js"></script>
+</body>
+</html>

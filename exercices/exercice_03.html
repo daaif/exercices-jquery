@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 3</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 3 <small>Manipulation & Ajax</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p>La balise <strong>div#ce</strong> est vide. Nous voulons récuperer
+                le fichier JSON <strong>users.json</strong> et
+                l'afficher avec le <strong>Highlighting Javascript</strong>. Pour cela :
+                <ol>
+                    <li>Créer une balise &lt;pre&gt; et l'ajouter dans la div</li>
+                    <li>Ajouter la classe CSS &laquo;<strong>language-javascript</strong>&raquo; à la balise &lt;pre&gt;</li>
+                    <li>Créer une balide &lt;code&gt; et l'ajouter dans la balise &lt;pre&gt;</li>
+                    <li>Faire une requete AJAX pour récupérer le ficher user.json sous format texte</li>
+                    <li>Ajouter son contenu dans la balise &lt;pre&gt;</li>
+                    <li>Appeler la métode &laquo;<strong>Prism.highlightAll()</strong>&raquo;</li>
+                    </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+    <div class="markup">
+        <div id="ce">
+
+        </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-03.js', Num = 3</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-03.js"></script>
+</body>
+</html>

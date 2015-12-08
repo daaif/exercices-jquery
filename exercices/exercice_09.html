@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 9</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 9 <small>XML - JSON - BINDING</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p>Dans cet exercice, nous allons utiliser les fichiers <strong>usa.xml</strong>
+                 et <strong>usa.json</strong> qui ont été généré à partir du fichier
+                 <strong>mondial.xml</strong>.
+                <ol type="A">
+                    <li>JSON
+                        <ol>
+                            <li>Chargez le fichier <strong>usa.json</strong> à l'aide d'une requete
+                            <strong>AJAX</strong> et affectez-le à la variable <strong>usa</strong>
+                            </li>
+                            <li>Remplir la liste <strong>#la</strong> avec les noms des
+                            des états US.</li>
+                            <li>Attachez à la liste <strong>#la</strong> un handler
+                            <strong>change</strong>. Le handler doit synchroniser les villes de
+                                la liste <strong>#lb</strong> avec l'état de la liste
+                                <strong>#la</strong>.</li>
+                        </ol>
+                    </li>
+                    <li>XML <ol>
+                        <li>Refaire les questions précédentes avec le fichier <strong>usa.xml</strong></li>
+                    </ol></li>
+
+
+                </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+        <style>
+            #ce {
+                padding: 20px;
+            }
+            #la, #lb {
+                font-size: 18px;
+                padding: 8px;
+            }
+        </style>
+    <div class="markup"><div id="ce">
+        <select  id="la">
+            <option value="">Sélectionner un état</option>
+        </select>
+        <select  id="lb">
+            <option value="">Sélectionner une ville</option>
+        </select>
+    </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-09.js', Num = 9, gif = true;</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-09.js"></script>
+</body>
+</html>

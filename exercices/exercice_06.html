@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 6</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 6 <small>EVENTS</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p><strong>keypdown</strong> et <strong>keyup</strong> sont utilisé
+                pour récupérer le code de la <strong>touche</strong> clavier.
+                Par contre <strong>keypress</strong> permet de récupérer le code du
+                <strong>caractère</strong>.<br>
+
+                <ol>
+                    <li>Attacher un événement <strong>keypress</strong> à la zone
+                        de texte <strong>#f1</strong> et analyser l'objet <strong>Event</strong>
+                    dans la console.</li>
+                    <li>L'attribut <strong>charCode</strong> de l'objet <strong>Event</strong>
+                        permet de récupérer le code du caractère. Faire en sorte que la
+                        <strong>div#out</strong> recopie le contenu de de <strong>#f1</strong>
+                    </li>
+                    <li>Appliquer un filtre au texte saisie de sorte que ne s'affichent
+                    que les chiffres.</li>
+                    <li>Faire la meme chose dans <strong>#f2</strong> à la différence
+                        que la recopie ne se fasse que pour des lots de trois caractères</li>
+                </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+        <style>
+            .field {width: 260px; font-size: 20px; padding:6px; margin:2px;}
+            #out { width: 96%; border:1px solid #ccc;
+                height: 30px; padding: 10px; font-size: 25px;
+                font-weight:bold; margin: 2px;
+            }
+        </style>
+    <div class="markup">
+    <div id="ce">
+        <input type="text" id="f1" class="field"><br>
+        <input type="text" id="f2" class="field"><br>
+        <div id="out" ></div>
+    </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-06.js', Num = 6</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-06.js"></script>
+</body>
+</html>

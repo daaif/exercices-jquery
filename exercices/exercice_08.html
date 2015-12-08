@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 8</title>
+    <link rel="stylesheet" href="../bower_components/prism/themes/prism-coy.css">
+    <link rel="stylesheet" href="../interface/css/style.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="item" id="exercice">
+    <h1>Exercice 8 <small>XML - XSL - JSON</small></h1>
+    <div class="enonce">
+        <h2>Enoncé</h2>
+        <div>
+            <p>Nous voulons afficher les noms des départements français dans une liste
+                <strong>select</strong>. Quand un département est sélectionné, on
+                affiche toutes les villes de ce département dans une autres liste.<br>
+                Pour cela, nous allons d'abords préparer les données à la fois dans
+                un fichier <strong>XML fr.xml</strong> et dans un autre fichier
+                <strong>JSON fr.json</strong>. Les données seront extraites du fuchier
+                <strong><a href="..files/mondial.xml">modial.xml</a></strong>.
+                <ol>
+                    <li>Créer une feuille de style <strong>XSL fr.xsl</strong> qui permet
+                    de générer le fichier <strong>fr.xml</strong>. La structure du fichier
+                        est la suivante : <ul>
+                            <li>&lt;fr> (la racine) <ul>
+                                <li>&lt;dep> <strong>*</strong>(plusieurs éléments département ayant
+                                    un attribut <strong>nom</strong>) <ul>
+                                    <li>&lt;ville> <strong>*</strong> (plusieurs éléments ville)</li>
+                                </ul></li>
+                            </ul></li>
+                        </ul></li>
+                    <li>Créer une feuille de style <strong>XSL fr-json.xsl</strong> qui permet
+                        générer le fichier <strong>fr.json</strong>. Le fichier contiendra un tableau
+                        d'objets <strong>dep</strong>. L'objet <strong>dep</strong> a deux attributs :
+                        <ul>
+                            <li><strong>nom</strong> (nom du département)</li>
+                            <li><strong>villes</strong> (tableau de toutes les villes du
+                                département)</li>
+                        </ul>
+                    </li>
+
+                </ol>
+        </div>
+        <div class="barre" style="opacity: 0.5">
+            Afficher ou Masquer l'énoncé.
+        </div>
+    </div>
+
+    <div class="code">
+        <pre class="language-markup"><code></code></pre>
+    </div>
+    <div class="resultat">
+        <h2>Résultat</h2>
+
+    <div class="markup"><div id="ce">
+        <!-- La structure est donnée ici à titre d'exemple -->
+        <fr>
+            <dep nom="nom du pépartement">
+                <ville>nom de la ville</ville>
+                <!-- ... les autres villes du département -->
+            </dep>
+            <!-- ... les autres départements -->
+        </fr>
+        <script> // Format du fichier JSON
+        [
+            {
+                "nom": "Nom du département",
+                "villes" : [
+                        "ville_1",
+                        "ville_2",
+                        "ville_n"
+                ]
+            },{
+                "nom": "...",
+                "villes": []
+            }
+        ]
+        </script>
+    </div>
+    </div>
+    </div>
+
+    <div class="resultat">
+        <h2>Réponse</h2>
+    <pre class="language-javascript"><code id="reponse" ></code></pre>
+    </div>
+
+
+</div>
+
+<script src="../bower_components/prism/prism.js"></script>
+<script src="../bower_components/prism/components/prism-markup.min.js"></script>
+<script src="../bower_components/prism/components/prism-javascript.min.js"></script>
+<script src="../bower_components/prism/components/prism-css.min.js"></script>
+<script>var scriptPath = '../reponses/script-08.js', Num = 8, indent = false;</script>
+<script src="../interface/js/script.js"></script>
+<script  src="../reponses/script-08.js"></script>
+</body>
+</html>

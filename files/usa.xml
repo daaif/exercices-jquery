@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usa>
+   <state name="Alabama">
+      <city>Birmingham</city>
+      <city>Huntsville</city>
+      <city>Mobile</city>
+      <city>Montgomery</city>
+   </state>
+   <state name="Alaska">
+      <city>Anchorage</city>
+      <city>Juneau</city>
+   </state>
+   <state name="Arizona">
+      <city>Chandler</city>
+      <city>Glendale</city>
+      <city>Mesa</city>
+      <city>Phoenix</city>
+      <city>Scottsdale</city>
+      <city>Tempe</city>
+      <city>Tucson</city>
+   </state>
+   <state name="Arkansas">
+      <city>Little Rock</city>
+   </state>
+   <state name="California">
+      <city>Anaheim</city>
+      <city>Bakersfield</city>
+      <city>Berkeley</city>
+      <city>Chula Vista</city>
+      <city>Concord</city>
+      <city>Corona</city>
+      <city>Costa Mesa</city>
+      <city>El Monte</city>
+      <city>Escondido</city>
+      <city>Fontana</city>
+      <city>Fremont</city>
+      <city>Fresno</city>
+      <city>Fullerton</city>
+      <city>Garden Grove</city>
+      <city>Glendale</city>
+      <city>Hayward</city>
+      <city>Huntington Beach</city>
+      <city>Inglewood</city>
+      <city>Irvine</city>
+      <city>Lancaster</city>
+      <city>Long Beach</city>
+      <city>Los Angeles</city>
+      <city>Modesto</city>
+      <city>Moreno Valley</city>
+      <city>Norwalk</city>
+      <city>Oakland</city>
+      <city>Oceanside</city>
+      <city>Ontario</city>
+      <city>Orange</city>
+      <city>Oxnard</city>
+      <city>Palmdale</city>
+      <city>Pasadena</city>
+      <city>Pomona</city>
+      <city>Rancho Cucamonga</city>
+      <city>Riverside</city>
+      <city>Sacramento</city>
+      <city>Salinas</city>
+      <city>San Bernardino</city>
+      <city>San Diego</city>
+      <city>San Francisco</city>
+      <city>San Jose</city>
+      <city>Santa Ana</city>
+      <city>Santa Clarita</city>
+      <city>Santa Rosa</city>
+      <city>Simi Valley</city>
+      <city>Stockton</city>
+      <city>Sunnyvale</city>
+      <city>Thousand Oaks</city>
+      <city>Torrance</city>
+      <city>Vallejo</city>
+      <city>West Covina</city>
+   </state>
+   <state name="Colorado">
+      <city>Aurora</city>
+      <city>Colorado Springs</city>
+      <city>Denver</city>
+      <city>Fort Collins</city>
+      <city>Lakewood</city>
+   </state>
+   <state name="Connecticut">
+      <city>Bridgeport</city>
+      <city>Hartford</city>
+      <city>New Haven</city>
+      <city>Stamford</city>
+      <city>Waterbury</city>
+   </state>
+   <state name="Delaware">
+      <city>Dover</city>
+   </state>
+   <state name="Distr. Columbia">
+      <city>Washington</city>
+   </state>
+   <state name="Florida">
+      <city>Clearwater</city>
+      <city>Coral Springs</city>
+      <city>Fort Lauderdale</city>
+      <city>Hialeah</city>
+      <city>Hollywood</city>
+      <city>Jacksonville</city>
+      <city>Miami</city>
+      <city>Orlando</city>
+      <city>Pembroke Pines</city>
+      <city>St. Petersburg</city>
+      <city>Tallahassee</city>
+      <city>Tampa</city>
+   </state>
+   <state name="Georgia">
+      <city>Atlanta</city>
+      <city>Columbus</city>
+      <city>Macon</city>
+      <city>Savannah</city>
+   </state>
+   <state name="Hawaii">
+      <city>Hilo</city>
+      <city>Honolulu</city>
+   </state>
+   <state name="Idaho">
+      <city>Boise</city>
+   </state>
+   <state name="Illinois">
+      <city>Aurora</city>
+      <city>Chicago</city>
+      <city>Naperville</city>
+      <city>Peoria</city>
+      <city>Rockford</city>
+      <city>Springfield</city>
+   </state>
+   <state name="Indiana">
+      <city>Evansville</city>
+      <city>Fort Wayne</city>
+      <city>Gary</city>
+      <city>Indianapolis</city>
+      <city>South Bend</city>
+   </state>
+   <state name="Iowa">
+      <city>Cedar Rapids</city>
+      <city>Des Moines</city>
+   </state>
+   <state name="Kansas">
+      <city>Kansas City</city>
+      <city>Overland Park</city>
+      <city>Topeka</city>
+      <city>Wichita</city>
+   </state>
+   <state name="Kentucky">
+      <city>Frankfort</city>
+      <city>Lexington Fayette</city>
+      <city>Louisville</city>
+   </state>
+   <state name="Louisiana">
+      <city>Baton Rouge</city>
+      <city>Lafayette</city>
+      <city>New Orleans</city>
+      <city>Shreveport</city>
+   </state>
+   <state name="Maine">
+      <city>Augusta</city>
+   </state>
+   <state name="Maryland">
+      <city>Annapolis</city>
+      <city>Baltimore</city>
+   </state>
+   <state name="Massachusetts">
+      <city>Boston</city>
+      <city>Lowell</city>
+      <city>Springfield</city>
+      <city>Worcester</city>
+   </state>
+   <state name="Michigan">
+      <city>Ann Arbor</city>
+      <city>Detroit</city>
+      <city>Flint</city>
+      <city>Grand Rapids</city>
+      <city>Lansing</city>
+      <city>Livonia</city>
+      <city>Sterling Heights</city>
+      <city>Warren</city>
+   </state>
+   <state name="Minnesota">
+      <city>Minneapolis</city>
+      <city>St. Paul</city>
+   </state>
+   <state name="Mississippi">
+      <city>Jackson</city>
+   </state>
+   <state name="Missouri">
+      <city>Independence</city>
+      <city>Jefferson City</city>
+      <city>Kansas City</city>
+      <city>Springfield</city>
+      <city>St. Louis</city>
+   </state>
+   <state name="Montana">
+      <city>Helena</city>
+   </state>
+   <state name="Nebraska">
+      <city>Lincoln</city>
+      <city>Omaha</city>
+   </state>
+   <state name="Nevada">
+      <city>Carson City</city>
+      <city>Henderson</city>
+      <city>Las Vegas</city>
+      <city>Reno</city>
+   </state>
+   <state name="New Hampshire">
+      <city>Concord</city>
+      <city>Manchester</city>
+   </state>
+   <state name="New Jersey">
+      <city>Elizabeth</city>
+      <city>Jersey City</city>
+      <city>Newark</city>
+      <city>Paterson</city>
+      <city>Trenton</city>
+   </state>
+   <state name="New Mexico">
+      <city>Albuquerque</city>
+      <city>Santa Fe</city>
+   </state>
+   <state name="New York">
+      <city>Albany</city>
+      <city>Buffalo</city>
+      <city>New York</city>
+      <city>Rochester</city>
+      <city>Syracuse</city>
+      <city>Yonkers</city>
+   </state>
+   <state name="North Carolina">
+      <city>Charlotte</city>
+      <city>Durham</city>
+      <city>Greensboro</city>
+      <city>Raleigh</city>
+      <city>Winston Salem</city>
+   </state>
+   <state name="North Dakota">
+      <city>Bismarck</city>
+   </state>
+   <state name="Ohio">
+      <city>Akron</city>
+      <city>Cincinnati</city>
+      <city>Cleveland</city>
+      <city>Columbus</city>
+      <city>Dayton</city>
+      <city>Toledo</city>
+   </state>
+   <state name="Oklahoma">
+      <city>Oklahoma City</city>
+      <city>Tulsa</city>
+   </state>
+   <state name="Oregon">
+      <city>Eugene</city>
+      <city>Portland</city>
+      <city>Salem</city>
+   </state>
+   <state name="Pennsylvania">
+      <city>Allentown</city>
+      <city>Erie</city>
+      <city>Harrisburg</city>
+      <city>Philadelphia</city>
+      <city>Pittsburgh</city>
+   </state>
+   <state name="Rhode Island">
+      <city>Providence</city>
+   </state>
+   <state name="South Carolina">
+      <city>Columbia</city>
+   </state>
+   <state name="South Dakota">
+      <city>Pierre</city>
+      <city>Sioux Falls</city>
+   </state>
+   <state name="Tennessee">
+      <city>Chattanooga</city>
+      <city>Knoxville</city>
+      <city>Memphis</city>
+      <city>Nashville</city>
+      <city>Nashville Davidson</city>
+   </state>
+   <state name="Texas">
+      <city>Abilene</city>
+      <city>Amarillo</city>
+      <city>Arlington</city>
+      <city>Austin</city>
+      <city>Beaumont</city>
+      <city>Brownsville</city>
+      <city>Corpus Christi</city>
+      <city>Dallas</city>
+      <city>El Paso</city>
+      <city>Fort Worth</city>
+      <city>Garland</city>
+      <city>Grand Prairie</city>
+      <city>Houston</city>
+      <city>Irving</city>
+      <city>Laredo</city>
+      <city>Lubbock</city>
+      <city>McAllen</city>
+      <city>Mesquite</city>
+      <city>Pasadena</city>
+      <city>Plano</city>
+      <city>San Antonio</city>
+      <city>Waco</city>
+      <city>Wichita Falls</city>
+   </state>
+   <state name="Utah">
+      <city>Salt Lake City</city>
+   </state>
+   <state name="Vermont">
+      <city>Montpelier</city>
+   </state>
+   <state name="Virginia">
+      <city>Alexandria</city>
+      <city>Arlington</city>
+      <city>Chesapeake</city>
+      <city>Hampton</city>
+      <city>Newport News</city>
+      <city>Norfolk</city>
+      <city>Portsmouth</city>
+      <city>Richmond</city>
+      <city>Virginia Beach</city>
+   </state>
+   <state name="Washington">
+      <city>Olympia</city>
+      <city>Seattle</city>
+      <city>Spokane</city>
+      <city>Tacoma</city>
+   </state>
+   <state name="West Virginia">
+      <city>Charleston</city>
+   </state>
+   <state name="Wisconsin">
+      <city>Green Bay</city>
+      <city>Madison</city>
+      <city>Milwaukee</city>
+   </state>
+   <state name="Wyoming">
+      <city>Cheyenne</city>
+   </state>
+</usa>
