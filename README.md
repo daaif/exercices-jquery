@@ -1,6 +1,6 @@
 # Exercices jQuery
 Une série de 10 exercices jQuery avec des difficultés variables.
-## Comment répondre aux questions.
+## Comment répondre aux questions ?
 1. Charger le dépo dan votre machine
 2. placez-vous dans le dossier exercices-jquery
 3. Lancez un serveur web de développement ex. http-server (npm -g install http-server)
