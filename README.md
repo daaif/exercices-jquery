@@ -1,5 +1,5 @@
 # Exercices jQuery
-Une série de 10 exercices jQuery avec des difficultés variables.
+Une série de 10 exercices jQuery avec des difficultés variables. [Aperçu](http://exercices.daaif.net)
 ## Comment répondre aux questions ?
 1. Charger le dépot dans votre machine ( **git clone** )
 2. placez-vous dans le dossier **exercices-jquery**
