@@ -6,5 +6,6 @@ Une série de 10 exercices jQuery avec des difficultés variables.
 3. Lancez un serveur web de développement ex. http-server ( **npm -g install http-server** )
 4. Lisez les instructions de la page d'accueil.
 5. Accédez aux exercices en appuyant sur le lien en bas
+
 ---
 [Abdelaziz DAAIF](http://www.daaif.net)
